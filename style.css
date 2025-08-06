@@ -1,0 +1,116 @@
+/* --- Basic Setup --- */
+:root {
+    --primary-bg: #f5f7fa;
+    --card-bg: #ffffff;
+    --text-color: #333;
+    --accent-color: #007bff;
+    --border-color: #e1e4e8;
+    --shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* --- Layout --- */
+header, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* --- Search Bar --- */
+.search-container {
+    margin-bottom: 30px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-sizing: border-box; /* Important for padding */
+}
+
+/* --- Tool Grid & Cards --- */
+.tool-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.tool-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+}
+
+.tool-card h3 {
+    margin-top: 0;
+}
+
+.tool-card a {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.tool-category {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.tool-description {
+    flex-grow: 1; /* Pushes guarantees to the bottom */
+    margin-bottom: 15px;
+}
+
+.tool-guarantees {
+    border-top: 1px dashed var(--border-color);
+    padding-top: 10px;
+    font-size: 0.85em;
+}
+
+.tool-guarantees .tag {
+    display: inline-block;
+    background-color: #e6f7ff;
+    color: #096dd9;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
