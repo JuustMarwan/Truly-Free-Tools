@@ -1,0 +1,42 @@
+[
+  {
+    "name": "TinyPNG",
+    "url": "https://tinypng.com/",
+    "category": "Image Compressor",
+    "description": "Smart PNG and JPEG compression to reduce file sizes for your images.",
+    "guarantees": ["No Sign-up Required", "No Watermarks"],
+    "keywords": ["image", "compress", "optimizer", "png", "jpg"]
+  },
+  {
+    "name": "Photopea",
+    "url": "https://www.photopea.com/",
+    "category": "Image Editor",
+    "description": "A powerful free online image editor supporting PSD, XCF, Sketch, XD and CDR formats.",
+    "guarantees": ["No Sign-up Required", "No Data Selling"],
+    "keywords": ["photoshop", "editor", "gimp", "psd", "image"]
+  },
+  {
+    "name": "Online-OCR",
+    "url": "https://www.online-ocr.com/",
+    "category": "OCR",
+    "description": "Recognize text from scanned documents (PDF, JPG, BMP, TIFF, GIF) and convert into editable text formats.",
+    "guarantees": ["Free Tier Available"],
+    "keywords": ["ocr", "text recognition", "pdf", "scan"]
+  },
+  {
+    "name": "123apps Video Cutter",
+    "url": "https://online-video-cutter.com/",
+    "category": "Video Editor",
+    "description": "A simple online tool for cutting and trimming video files without re-encoding.",
+    "guarantees": ["No Sign-up Required", "No Watermarks"],
+    "keywords": ["video", "crop", "trim", "cut", "editor"]
+  },
+  {
+    "name": "Grammarly (Free Version)",
+    "url": "https://www.grammarly.com/",
+    "category": "Language Checker",
+    "description": "Ensures your writing is easy to read, effective, and mistake-free. The free version covers basic grammar and spelling.",
+    "guarantees": ["No Data Selling (per policy)"],
+    "keywords": ["grammar", "spell check", "writing", "proofread"]
+  }
+]
