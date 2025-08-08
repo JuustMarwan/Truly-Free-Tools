@@ -5,6 +5,7 @@
     "category": "Image Compressor",
     "description": "Smart PNG and JPEG compression to reduce file sizes for your images.",
     "guarantees": ["No Sign-up Required", "No Watermarks"],
+    "disadvantages": [],
     "keywords": ["image", "compress", "optimizer", "png", "jpg"]
   },
   {
@@ -12,7 +13,8 @@
     "url": "https://www.photopea.com/",
     "category": "Image Editor",
     "description": "A powerful free online image editor supporting PSD, XCF, Sketch, XD and CDR formats.",
-    "guarantees": ["No Sign-up Required", "No Data Selling"],
+    "guarantees": ["No Data Selling"],
+    "disadvantages": ["Requires Sign-up for cloud storage"],
     "keywords": ["photoshop", "editor", "gimp", "psd", "image"]
   },
   {
@@ -20,7 +22,8 @@
     "url": "https://www.online-ocr.com/",
     "category": "OCR",
     "description": "Recognize text from scanned documents (PDF, JPG, BMP, TIFF, GIF) and convert into editable text formats.",
-    "guarantees": ["Free Tier Available"],
+    "guarantees": [],
+    "disadvantages": ["Requires Sign-up", "Limited Free Tier"],
     "keywords": ["ocr", "text recognition", "pdf", "scan"]
   },
   {
@@ -29,6 +32,7 @@
     "category": "Video Editor",
     "description": "A simple online tool for cutting and trimming video files without re-encoding.",
     "guarantees": ["No Sign-up Required", "No Watermarks"],
+    "disadvantages": ["File size limits"],
     "keywords": ["video", "crop", "trim", "cut", "editor"]
   },
   {
@@ -37,6 +41,7 @@
     "category": "Language Checker",
     "description": "Ensures your writing is easy to read, effective, and mistake-free. The free version covers basic grammar and spelling.",
     "guarantees": ["No Data Selling (per policy)"],
+    "disadvantages": ["Requires Sign-up", "Core features are paid"],
     "keywords": ["grammar", "spell check", "writing", "proofread"]
   }
 ]
